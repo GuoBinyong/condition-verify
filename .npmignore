@@ -2,15 +2,16 @@
 # https://github.com/GuoBinyong/library-webpack-template
 
 # 构建配置相关
-build/
-project-config.js
-webpack.config.js
 tsconfig.json
 .postcssrc.js
 .eslintrc.js
 .eslintignore
 .editorconfig
-可删除-交互式树形可视化构建分析报告.gif
+.travis.yml
+rollup.config.js
+
+
+
 
 # WebStorm生成的用来存放项目配置的目录
 .idea
@@ -20,3 +21,7 @@ tsconfig.json
 
 #Mac系统中用来存储文件夹的显示属性的文件
 .DS_Store
+
+
+# 代码目录
+test/
